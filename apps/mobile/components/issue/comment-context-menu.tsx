@@ -198,6 +198,7 @@ export function useCommentLongPress(
     toggleReaction,
     deleteComment,
     resolveComment,
+    getName,
   ]);
 
   return { onLongPress, isPressed };
